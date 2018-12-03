@@ -1,0 +1,22 @@
+server:
+  port: 9006
+  session:
+    timeout: 30
+  tomcat:
+    uri-encoding: UTF-8
+
+spring:
+  profiles:
+    active: dev
+
+---
+spring:
+  profiles: dev
+swagger:
+  enable: true
+
+---
+spring:
+  profiles: prod
+swagger:
+  enable: false
