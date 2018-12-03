@@ -9,8 +9,10 @@ public class UserVO extends BaseVO{
     @ApiModelProperty(value = "名称")
     private String name;
 
-    @ApiModelProperty(value = "手机号")
+    @ApiModelProperty(value = "手机号1")
     private String phone;
+
+    private AccessTokenVO accessToken;
 
     public String getName() {
         return name;
