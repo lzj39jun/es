@@ -4,7 +4,6 @@ package com.wutu.entity;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 
-@Entity
 public class User extends BaseEntity {
 
     @Column(columnDefinition = STRING + "'名称'")

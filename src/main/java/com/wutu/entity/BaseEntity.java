@@ -1,12 +1,7 @@
 package com.wutu.entity;
 
-import javax.persistence.*;
+public class BaseEntity {
 
-@MappedSuperclass
-public class BaseEntity  {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(columnDefinition = LONG+"'ID'")
     private Long id;
 
     public Long getId() {
